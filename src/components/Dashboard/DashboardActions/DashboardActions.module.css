@@ -1,0 +1,51 @@
+.dashboardActions {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.dashboardActions svg {
+    color: #707475;
+}
+
+.peopleSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 1px solid #eaf0f3;
+    box-shadow: 1px 2px 2px #eaf0f34c;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+}
+
+.peopleSelect option {
+    margin-right: 0.5rem;
+}
+
+.addNewSelect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 1rem;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.filters p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 0.5rem;
+    padding: 0;
+}

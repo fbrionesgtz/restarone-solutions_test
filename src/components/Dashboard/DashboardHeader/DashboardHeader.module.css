@@ -1,0 +1,113 @@
+.dashboardHeader {
+    min-width: inherit;
+    max-width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 5px -2px #80808063;
+}
+
+.dashboardHeader h1 {
+    position: relative;
+    font-size: 1.5em;
+    margin-left: 2rem;
+}
+
+.dashboardHeader h1::after {
+    content: "";
+    position: absolute;
+    bottom: -0.85em;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #7484db;
+}
+
+.search {
+    position: relative;
+    width: 50%;
+    height: 30px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.search form {
+    width: 100%;
+    height: 100%;
+    background-color: #eaf0f3;
+    display: block;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #eaf0f3;
+    margin: auto;
+    display: block;
+    padding-inline: 3rem;
+}
+
+.search input:focus {
+    outline-width: 0;
+}
+
+.search button {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    background-color: transparent;
+    border: none;    
+    color: #828383;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.actions svg:first-child {
+    margin-right: 0.5rem;
+    font-size: 1.6em;
+}
+
+.actions svg:last-child {
+    color: #939798;
+    margin-top: 0.2rem;
+}
+
+.notifications {
+    position: relative;
+    margin-top: 0.4rem;
+}
+
+.notifications svg {
+    color: #3f3f3f!important;
+}
+
+.notifications p {
+    position: absolute;
+    top: -14px;
+    right: -5px;
+    font-size: 0.5em;
+    padding: 3px;
+    color: white;
+    background-color: #b50814;
+    border-radius: 50%;
+}
+
+.pIcon {
+    background-color: #323943;
+    padding: 0.2rem;
+    height: 1rem;
+}
+
+.pIcon svg {
+    display: block;
+    margin: 0!important;
+    font-size: 1em!important;
+    stroke-width: 0.2rem;
+    color: white!important;
+}
+
