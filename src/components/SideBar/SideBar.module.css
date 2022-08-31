@@ -1,0 +1,43 @@
+.sidebar {
+    background-color: #311d40;
+    width: 12%;
+    height: 100vh;
+    position: fixed;
+    padding-block: 0.25rem;
+    color: #958c99;
+    font-size: 0.85em;
+}
+
+.btnX {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6% 4%;
+    stroke-width: 0.05;
+    font-size: 2.5em;
+    transform: rotate(45deg);
+    color: white;
+}
+
+.btnThreeDots {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 8% 8%;
+    stroke-width: 0.05;
+    font-size: 1.5em;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+}
+
+@media only screen and (max-width: 1900px) {
+    .sidebar {
+        width: 15%;
+        font-size: 0.7em;
+    }
+}
