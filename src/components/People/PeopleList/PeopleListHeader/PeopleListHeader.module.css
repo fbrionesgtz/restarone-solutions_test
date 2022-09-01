@@ -1,0 +1,32 @@
+.headerGrid {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 0.8em;
+    box-shadow: 0 4px 5px -2px #80808063;
+    font-weight: bold;
+    color: #707475;
+}
+
+.headerGrid svg {
+    stroke-width: 0.02em;
+    font-size: 1.25em;
+}
+
+.active {
+    margin-left: 3rem;
+    color: #283996;
+}
+
+.headerCellContent {
+    display: flex;
+    padding: 1rem;
+}
+
+.headerCellContent p {
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.flip {
+    transform: scaleY(-1);
+}

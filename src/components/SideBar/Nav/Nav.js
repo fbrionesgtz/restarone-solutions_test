@@ -32,7 +32,7 @@ const Nav = () => {
           <a href="#">Leads</a>
           <MdOutlineLockOpen className={styles.alignEnd} />
         </li>
-        <li>
+        <li className={styles.active}>
           <div className={styles.notifications}>
             <p>3</p>
           </div>

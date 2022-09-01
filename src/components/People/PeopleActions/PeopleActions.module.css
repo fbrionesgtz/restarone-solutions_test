@@ -1,10 +1,12 @@
-.dashboardActions {
+.peopleActions {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 0.5rem;
+    border-bottom: 1px solid #70747523;
 }
 
-.dashboardActions svg {
+.peopleActions svg {
     color: #707475;
 }
 
@@ -13,14 +15,15 @@
     -moz-appearance: none;
     margin: 1rem;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.7rem;
+    padding-right: 1.5rem;
     border: 1px solid #eaf0f3;
     box-shadow: 1px 2px 2px #eaf0f34c;
     background: transparent;
     background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-position-y: 5px;
+    background-position-y: 6px;
 }
 
 .peopleSelect option {
@@ -30,17 +33,26 @@
 .addNewSelect {
     -webkit-appearance: none;
     -moz-appearance: none;
+    position: relative;
     margin: 1rem;
-    background: transparent;
-    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    color: white;
+    font-size: 0.72em;
+    padding-block: 0.5rem;
+    padding-right: 3.5rem;
+    padding-left: 1rem;
+    border-radius: 5rem;
+    background: #2b41b2;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 5px;
+    background-position-x: 95%;
+    background-position-y: 1px;
 }
+
 
 .actions {
     display: flex;
     gap: 0.5rem;
+    margin-right: 1rem;
 }
 
 .filters p {

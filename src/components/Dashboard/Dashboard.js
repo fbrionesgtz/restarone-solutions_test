@@ -1,12 +1,14 @@
+import FloatingButton from "../FloatingButton/FloatingButton";
 import styles from "./Dashboard.module.css";
-import DashboardActions from "./DashboardActions/DashboardActions";
 import DashboardHeader from "./DashboardHeader/DashboardHeader";
+import People from "../People/People";
 
-const Dashboard = () => {
+const Dashboard = (props) => {
   return (
     <section className={styles.dashboard}>
       <DashboardHeader />
-      <DashboardActions />
+      <People people={props.people} />
+      <FloatingButton />
     </section>
   );
 };

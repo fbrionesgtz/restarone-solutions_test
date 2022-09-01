@@ -1,0 +1,47 @@
+.personGrid {
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    border-bottom: 1px solid #8080803d;
+}
+
+.personGrid:hover {
+    background-color: #80808021;
+}
+
+.cell {
+    margin-left: 1rem;
+    margin-block: auto;
+}
+
+.startColumnTwo {
+    grid-column-start: 2;
+}
+
+.personName {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-block: 0.5rem;
+    border-right: 1px solid #8080803d;
+}
+
+.personName p {
+    margin: 0;
+}
+
+.personImg {
+    width: 18%;
+}
+
+.personImg img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.accent {
+    color: #354ecb;
+}
+
+.light {
+    color: #858383; 
+}

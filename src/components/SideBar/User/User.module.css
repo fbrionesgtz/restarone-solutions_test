@@ -1,27 +1,27 @@
-.profile {
+.user {
     padding: 0.5rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.profileImg {
+.userImg {
     width: 20%;
 }
 
-.profileImg img {
+.userImg img {
     width: 100%;
     border-radius: 50%;
     margin-right: 0.5rem;
 }
 
-.profileName h3 {
+.userName h3 {
     font-size: 1.05em;
     font-weight: 300;
     margin: 0;
     color: #c8c8ca;
 }
-.profileName p {
+.userName p {
     font-weight: 100;
     font-size: 0.8em;
     margin: 0.15rem 0 0 0;
@@ -29,7 +29,7 @@
 }
 
 @media only screen and (min-width: 1900px) {
-    .profileImg {
+    .userImg {
         width: 25%;
     }
 }

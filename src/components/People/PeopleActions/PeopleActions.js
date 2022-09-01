@@ -1,11 +1,11 @@
-import styles from "./DashboardActions.module.css";
+import styles from "./PeopleActions.module.css";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { BsPersonFill } from "react-icons/bs";
 import { IoSettingsSharp, IoFilterSharp } from "react-icons/io5";
 
-const DashboardActions = () => {
+const PeopleActions = () => {
   return (
-    <div className={styles.dashboardActions}>
+    <div className={styles.peopleActions}>
       <div>
         <select
           name="people-action_select"
@@ -29,7 +29,7 @@ const DashboardActions = () => {
         <BiSearchAlt2 />
         <BsPersonFill />
         <IoSettingsSharp />
-        <div class={styles.filters}>
+        <div className={styles.filters}>
           <IoFilterSharp />
           <p>Filters</p>
         </div>
@@ -38,4 +38,4 @@ const DashboardActions = () => {
   );
 };
 
-export default DashboardActions;
+export default PeopleActions;
