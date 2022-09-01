@@ -3,13 +3,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Instalation
-Installation
-Clone the repo
-git clone https://github.com/fbrionesgtz/restarone-solutions_test.git
-Install NPM packages
-npm install
-Start server
-npm start
+1. Clone the repo
+   ```sh
+   git clone https://github.com/fbrionesgtz/restarone-solutions_test.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start server
+   ```sh
+   npm start
+   ```
 
 ## Technologies
 * React.js
