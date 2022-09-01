@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Restarone Solutions JavaScript Developer Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Instalation
+Installation
+Clone the repo
+git clone https://github.com/fbrionesgtz/restarone-solutions_test.git
+Install NPM packages
+npm install
+Start server
+npm start
+
+## Technologies
+* React.js
+* React Icons
+* Styled Components
+* HTML
+* CSS
 
 ## Available Scripts
 
